@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Dec 31 00:30:47 EST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>126 seconds (126238 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='pages.SearchPageTest.search()'><b>search</b><br>Test class: pages.SearchPageTest<br/>
+<a href="#Output-99295602" onClick='toggleBox("Output-99295602", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-99295602" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-99295602">
+[[ChromeDriver: chrome on mac (928b35a8a92a454fb4ad659268db2d14)] -> xpath: //input[@id='search-field']]<---------> has been clicked<br><br/>
+Moiserizer <-----> has been put into <-----> [[ChromeDriver: chrome on mac (928b35a8a92a454fb4ad659268db2d14)] -> xpath: //input[@id='search-field']]<br><br/>
+[[ChromeDriver: chrome on mac (928b35a8a92a454fb4ad659268db2d14)] -> id: retain-search-close]<---------> has been clicked<br><br/>
+Body Lotion <-----> has been put into <-----> [[ChromeDriver: chrome on mac (928b35a8a92a454fb4ad659268db2d14)] -> xpath: //input[@id='search-field']]<br><br/>
+Javascript Executor executing to view ...arguments[0].scrollIntoView(true); on the element of ---> [[ChromeDriver: chrome on mac (928b35a8a92a454fb4ad659268db2d14)] -> id: productTileLink_0]<br><br/>
+Proxy element for: DefaultElementLocator 'By.id: productTileLink_0'<---------> has been clicked<br><br/>
+[[ChromeDriver: chrome on mac (928b35a8a92a454fb4ad659268db2d14)] -> xpath: //*[@id='add-to-cart-btn']]<---------> has been clicked<br><br/>
+Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='costcoModalText']/div[2]/div[2]/a/button'<---------> has been clicked<br><br/>
+[[ChromeDriver: chrome on mac (928b35a8a92a454fb4ad659268db2d14)] -> xpath: //input[@id='search-field']]<---------> has been clicked<br><br/>
+shampoo <-----> has been put into <-----> [[ChromeDriver: chrome on mac (928b35a8a92a454fb4ad659268db2d14)] -> xpath: //input[@id='search-field']] and then clicked by Enter Key<br><br/>
+Javascript Executor executing to view ...arguments[0].scrollIntoView(true); on the element of ---> [[ChromeDriver: chrome on mac (928b35a8a92a454fb4ad659268db2d14)] -> xpath: //*[@id='productTileLink_0']/img]<br><br/>
+Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='productTileLink_0']/img'<---------> has been clicked<br><br/>
+[[ChromeDriver: chrome on mac (928b35a8a92a454fb4ad659268db2d14)] -> xpath: //*[@id='add-to-cart-btn']]<---------> has been clicked<br><br/>
+[[ChromeDriver: chrome on mac (928b35a8a92a454fb4ad659268db2d14)] -> xpath: //*[@id='costcoModalText']/div[2]/div[1]/button]<---------> has been clicked<br><br/>
+[[ChromeDriver: chrome on mac (928b35a8a92a454fb4ad659268db2d14)] -> id: cart-d]<---------> has been clicked<br><br/>
+Javascript Executor executing to view ...arguments[0].scrollIntoView(true); on the element of ---> [[ChromeDriver: chrome on mac (928b35a8a92a454fb4ad659268db2d14)] -> xpath: //*[@id='order-item_2']/div/div[3]/div/div/div/div]<br><br/>
+[[ChromeDriver: chrome on mac (928b35a8a92a454fb4ad659268db2d14)] -> xpath: //*[@id='order-item_2']/div/div[3]/div/div/div/div]<---------> has been clicked<br><br/>
+Sleeping ... zZz 10<br><br/>
+Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='shopCartCheckoutSubmitButton']'<---------> has been clicked<br><br/>
+</div>
+</td>
+<td></td>
+<td>121</td>
+<td>pages.SearchPageTest@3ba987b8</td></tr>
+</table><p>
+</body>
+</html>
